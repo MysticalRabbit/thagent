@@ -290,3 +290,7 @@
 	color: var(--accent);
 	text-transform: uppercase
 }
+
+.baul-relaciones > br {
+    display: none;
+}
