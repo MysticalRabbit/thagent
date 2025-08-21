@@ -272,7 +272,7 @@
 	outline: var(--border);
 	border-radius: 4px;
 	object-fit: cover;
-	background-color: #873e65;
+	background-color: var(--accent);
 	background-blend-mode: multiply
 }
 
