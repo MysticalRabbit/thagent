@@ -270,6 +270,7 @@
 
 .baul-descripcion .b-repro {
 	width: 400px;
+	height: 100%;
     outline: var(--border);
     border-radius: 4px;
     background-size: cover;
