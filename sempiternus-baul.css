@@ -247,7 +247,8 @@
 .b-alters .alter img {
 	width: 65px;
 	height: 65px;
-	filter: grayscale(100%)
+	filter: grayscale(100%);
+	flex: 0 0 65px;
 }
 
 .b-alters .alter .a-nom {
@@ -269,12 +270,11 @@
 
 .baul-descripcion .b-repro {
 	width: 400px;
-	height: 110px;
-	outline: var(--border);
-	border-radius: 4px;
-	object-fit: cover;
-	background-color: var(--accent);
-	background-blend-mode: multiply
+    outline: var(--border);
+    border-radius: 4px;
+    background-size: cover;
+    background-color: var(--accent);
+    background-blend-mode: multiply;
 }
 
 .baul-descripcion .b-notas {
@@ -282,7 +282,7 @@
 	column-count: 2;
 	column-gap: 20px;
 	text-align: justify;
-	line-height: 142%;
+	line-height: 150%;
 	font-size: 13px
 }
 
