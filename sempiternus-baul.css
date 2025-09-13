@@ -283,12 +283,12 @@
 	column-count: 2;
 	column-gap: 20px;
 	text-align: justify;
-	line-height: 150%;
-	font-size: 13px
+	line-height: 166%;
+	font-size: 12px
 }
 
 .baul-descripcion .b-notas b {
-	font-weight: 800;
+	font-weight: 600;
 	color: var(--accent);
 	text-transform: uppercase
 }
