@@ -1,0 +1,58 @@
+.aksel-sig {
+	width: 280px;
+	height: 230px;
+	background: url(https://i.imgur.com/wc7Yj0M.png);
+	margin: 0 auto;
+	border: 10px solid #111;
+	outline: #222 solid 1px;
+	transition: .8s;
+	transform: scale(.9)
+}
+
+.ak-txt,
+.ak-txt span {
+	opacity: 0;
+	transition: .5s
+}
+
+.aksel-sig:hover {
+	outline-color: #4d919f
+}
+
+.aksel-sig:hover .ak-txt {
+	opacity: 1;
+	transition: .6s
+}
+
+.aksel-sig:hover .ak-txt span {
+	filter: blur(0);
+	opacity: 1;
+	transition: .8s .8s
+}
+
+.ak-txt {
+	width: 100%;
+	height: 100%;
+	font: 500 9px/180% "Old Standard TT";
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 2px #aaa;
+	color: #ccc;
+	text-transform: uppercase;
+	text-align: center;
+	background: rgba(0, 0, 0, .8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box
+}
+
+.ak-txt span {
+	filter: blur(3px)
+}
+
+.ak-txt span i {
+	font-size: 30px;
+	padding-bottom: 10px;
+	margin-top: -10px
+}
